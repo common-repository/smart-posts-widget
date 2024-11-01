@@ -1,0 +1,53 @@
+/*
+Written by purab
+Default CSS for Smart Posts Widget plugin
+Version: 1.0
+*/
+.smart-posts-widget * {
+	margin: 0;
+	padding:0;
+}
+.smart-posts-widget ul{
+    padding:0px !important;
+    margin:0px !important;
+}
+
+.smart-posts-widget ul li{
+    display:inherit;
+}
+.smart-posts-widget {
+	font-size: 0.9em;	
+}
+.smart-posts-widget p {
+	margin-bottom: 0;
+}
+.smart-posts-widget .post-title {
+	font-size: 1.2em;	
+}
+.smart-posts-widget .post-date {	
+	margin-bottom: 0;
+}
+.smart-posts-widget img {
+	float: left;
+	margin: 5px 10px 0 0;
+}
+.smart-posts-widget ul li {
+	list-style: none;
+	list-style-type: none;
+	margin: 3px 0;
+	padding: 3px 0;
+	border-bottom: 1px solid #ccc;
+        float:left;
+}
+.smart-posts-widget ul li:last-child {
+	border-bottom: none;
+}
+.smart-posts-widget .more-link {
+	display: inline;
+}
+.smart-posts-widget .post-entry { 
+   padding: 0 0 5px 0;
+   overflow: hidden;
+}
+#smart-post-form-container{max-width:500px}
+.smart-post-singleitem img{max-width:100% !important;max-height:100% !important;}
